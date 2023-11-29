@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the triple threats of inputs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="bar">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <button onclick="submitUsername()">Submit</button>
+        <ul id="usernameList"></ul>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button onclick="submitPassword()">Submit</button>
+        <ul id="passwordList"></ul>
+
+        <label for="authCode">Authentication Code:</label>
+        <input type="text" id="authCode" placeholder="Enter your authentication code">
+        <button onclick="submitAuthCode()">Submit</button>
+        <ul id="authCodeList"></ul>
+    </div>
+
+</body>
+</html>
